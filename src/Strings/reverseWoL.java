@@ -13,7 +13,7 @@ public class reverseWoL {
 			count++; // now we can count without using length() method
  			s1+=ch[i];
 		}
-//		System.out.println(ch.length); // we can do it without using count also 
+//		System.out.println(ch.length); // we can also do it without using count 
 		System.out.println(s1);
 		System.out.println(count+" Characters");
 	}

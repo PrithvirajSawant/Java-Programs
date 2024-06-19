@@ -1,5 +1,4 @@
 package OOPS;
-
 class B
 {
 	static int a; // static member

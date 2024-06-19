@@ -14,7 +14,7 @@ public class stringBuilder {
 			char backChar = sb.charAt(back);   //character
 			
 			sb.setCharAt(front,backChar);  //Set first char to last char so on 
-			sb.setCharAt(back, frontChar); //Set last char to first char so on
+//			sb.setCharAt(back, frontChar); //Set last char to first char so on
 			
 		}
 		System.out.println(sb);

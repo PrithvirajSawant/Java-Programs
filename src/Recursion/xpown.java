@@ -12,9 +12,10 @@ public class xpown {
 		{
 			return 0; 
 		}
-		int xPowm1 = calcPow(x,n-1);
-		int xPow = x * xPowm1;
-		return xPow;
+//		int xPowm1 = calcPow(x,n-1);
+//		int xPow = x * xPowm1;
+//		return xPow;
+		return x * calcPow(x,n-1); //short
 	}
 
 	public static void main(String[] args) {

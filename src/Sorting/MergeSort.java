@@ -59,9 +59,15 @@ public class MergeSort {
 		// TODO Auto-generated method stub
 		int arr[] = {1,6,9,4,3,5,8,0,-1,2,7};
 		sort(arr);
-		for(int e:arr)
+		
+//		for(int e:arr)
+//		{
+//			System.out.print(e+" ");
+//		}
+//		System.out.println();
+		for(int i =0;i<arr.length;i++)
 		{
-			System.out.print(e+" ");
+			System.out.print(arr[i]+" ");
 		}
 	}
 

@@ -1,3 +1,4 @@
+
 package Collections;
 
 public class HashSet {
@@ -23,7 +24,7 @@ public class HashSet {
 		int index = data.hashCode()%10;
 		if(index<0)
 		{
-			index*=1;
+			index*=-1;
 		}
 		Node newNode = new Node(data);
 		//For first Node of that index
@@ -85,6 +86,19 @@ public class HashSet {
 		h.add(99);
 		h.add(100);
 		h.add(100);
+		h.add(143);
+		h.add(33);
+		h.add(103);
+		h.add(113);
+		h.add(13);
+		h.add(143);
+		h.add(153);
+		h.add(163);
+		h.add(173);
+		h.add(333);
+		h.add(83);
+		h.add(3);
+		
 		System.out.println("Size of arr : "+h.size());
 //		System.out.println("*****");
 		h.display();

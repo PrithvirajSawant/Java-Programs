@@ -65,9 +65,14 @@ public class student implements Comparable<student>  {
 		
 //		std.forEach(System.out::println);
 		
-		for(student n:std)
+//		for(student n:std)
+//		{
+//			System.out.println(n);
+//		}
+		
+		for(int i=0;i<std.size();i++)
 		{
-			System.out.println(n);
+			System.out.println(std.get(i));
 		}
 		
 	

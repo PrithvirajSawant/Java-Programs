@@ -31,6 +31,7 @@ public class AddNum {
 			}
 		}
 		System.out.println(sum);
+//		System.out.println('a'-97); //ignore
 
 	}
 

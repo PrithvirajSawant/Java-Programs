@@ -17,7 +17,7 @@ public class MinOccurrence {
 			count = s.length()-s2.length();
 			s=s2;
 //			System.out.println(ch+"="+count); //all occurrence
-			if(min>=count)
+			if(min>count)
 			{
 //				count2++;
 				min=count;

@@ -1,7 +1,7 @@
 package Collections;
 //L-1
 public class Linkedlist {
-	Node head;
+	Node head; //reference node (starting point or entry point)
 	private int size;
 	
 	Linkedlist()
@@ -21,7 +21,7 @@ public class Linkedlist {
 			size++; // Size for addFirst & addLast
 		}
 		
-	 }
+	}
 	
 	//addFirst //Useful in stack LIFO
 	public void addFirst(String data)
@@ -88,8 +88,8 @@ public class Linkedlist {
 		Node lastNode = head.next;
 		while(lastNode.next!=null)
 		{
+			secondLast = lastNode;
 			lastNode = lastNode.next;
-			secondLast = secondLast.next;
 		}
 		secondLast.next = null;
 	}
@@ -164,6 +164,7 @@ public class Linkedlist {
 	
 	public void remove(int index)
 	{
+		
 		if(index>=size)
 		{
 			System.out.println("invalid index");
@@ -248,45 +249,50 @@ public class Linkedlist {
 		
 		list.addFirst("This");
 		list.printList();
-		
-		System.out.println("Current size is "+list.getSize());
-		list.set(3, "Linkedlist");
+		list.remove(2);
 		list.printList();
-		
-		list.add(0, "etc");
-		list.add(4, "blank");
-		list.add(5, "Form");
-		list.printList();
-		System.out.println(list.get(4));
-		list.add(4, "nn");
-		list.printList();
-		System.out.println(list.get(4));
-		list.printList();
-		list.add(0, "ww");
-		list.printList();
-//		list.deleteFirst();
-//		list.printList();
-//		
-//		list.deleteLast();
-//		list.printList();
-//		System.out.println("Current size is "+list.getSize());
-//		System.out.println("Element @ specfied index is : "+list.get(1));
-		
-//		list.printList();
-//		System.out.println("Current size is "+list.getSize());
-//		
-//		list.printList();
-//		System.out.println("Current size is "+list.getSize());
-//		list.set(0, "er");
-		System.out.println(list.getSize());
-		list.remove(0);
-		list.add(0, "j9");
-		list.add(0, "j9");
-		list.add(10, "j9");
-		list.add(11, "j11");
-		list.printList();
-		System.out.println(list.getSize());
 //		list.clear();
+//		list.printList();
+		
+//		System.out.println("Current size is "+list.getSize());
+//		list.set(3, "Linkedlist");
+//		list.printList();
+//		
+//		list.add(0, "etc");
+//		list.add(4, "blank");
+//		list.add(5, "Form");
+//		list.printList();
+//		System.out.println(list.get(4));
+//		list.add(4, "nn");
+//		list.printList();
+//		System.out.println(list.get(4));
+//		list.printList();
+//		list.add(0, "ww");
+//		list.printList();
+////		list.deleteFirst();
+////		list.printList();
+////		
+////		list.deleteLast();
+////		list.printList();
+////		System.out.println("Current size is "+list.getSize());
+////		System.out.println("Element @ specfied index is : "+list.get(1));
+//		
+////		list.printList();
+////		System.out.println("Current size is "+list.getSize());
+////		
+////		list.printList();
+////		System.out.println("Current size is "+list.getSize());
+////		list.set(0, "er");
+//		System.out.println(list.getSize());
+//		list.remove(0);
+//		list.add(0, "j0");
+//		list.add(0, "j0");
+//		list.add(10, "j10");
+//		list.add(11, "j11");
+//		list.remove(11);
+//		list.printList();
+//		System.out.println(list.getSize());
+////		list.clear();
 		
 		
 	}

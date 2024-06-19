@@ -14,6 +14,7 @@ class Bus implements Runnable
 		{
 //			System.out.println(available);
 			System.out.println("Seat reserved for " + name);
+//			available=available-sPerPassenger;
 			available--;
 //			System.out.println(available);
 		}

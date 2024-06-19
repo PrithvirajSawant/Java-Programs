@@ -17,8 +17,8 @@ public class preOrderTT {
 	}
 
 	static class BinaryTree {
+		
 		static int idx = -1;
-
 		public static Node buildTree(int nodes[]) {
 			idx++;
 			if (nodes[idx] == -1) {
@@ -35,9 +35,10 @@ public class preOrderTT {
 	// Pre-Order Traversal
 	public static void preOrder(Node root) {
 		if (root == null) {
+			System.out.print("-1 "); // optional
 			return;
 		}
-		System.out.println(root.data + " ");
+		System.out.print(root.data + " ");
 		preOrder(root.left);
 		preOrder(root.right);
 	}

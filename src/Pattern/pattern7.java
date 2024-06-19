@@ -17,7 +17,6 @@ public class pattern7 {
 				System.out.print(i);
 			}
 			space+=3;
-//			System.out.println(space);
 		}
  
 	}

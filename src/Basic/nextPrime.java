@@ -4,9 +4,10 @@ public class nextPrime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int num = 3;
 		int count = 0;
 		int count2 = 0;
-		for(int i=3;i<10;i++)
+		for(int i=num;i<10;i++)
 		{
 			for(int j=2;j<i;j++)
 			{

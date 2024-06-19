@@ -3,7 +3,7 @@ class Aa
 {
 	int i = 10;
 	int j = 20;
-	
+//	Aa(){};
 	Aa(int i,int j)
 	{
 		this.i=i;
@@ -43,11 +43,13 @@ public class callToSuper {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Aa a = new Aa(1,2);
+		a.m1();
+		System.out.println("*****");
 		Ba b = new Ba(100,200);
 		b.m2();
 		System.out.println("*****");
 		b.m1();
-				
 
 	}
 

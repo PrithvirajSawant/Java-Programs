@@ -8,7 +8,7 @@ public class Stack_ArrayList_ <T>{
 	
 	Stack_ArrayList_()
 	{
-		size = 10;
+		size = 0;
 		index=-1;
 		a = new Object[size];
 	}
@@ -74,20 +74,7 @@ public class Stack_ArrayList_ <T>{
 		s.push(1);
 		s.push(2);
 		s.push(3);
-		s.push(4);
-		s.push(5);
-		s.push(6);
-		s.push(7);
-		s.push(8);
-		s.push(9);
-		s.push(10);
-		s.push(11);
-		s.push(12);
-		s.push(13);
-		s.push(14);
-		s.push(15);
-		s.push(16);
-		s.push(17);
+	
 //		s.pop();
 //		System.out.println(s.peek());
 		System.out.println("Current size is "+s.Size());

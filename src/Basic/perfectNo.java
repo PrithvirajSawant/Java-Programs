@@ -5,7 +5,7 @@ public class perfectNo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num = 6;
-		int temp = num;
+//		int temp = num;
 		int sum = 0;
 		for(int i=1;i<num;i++) {
 			if(num%i==0) {
@@ -13,7 +13,7 @@ public class perfectNo {
 			}
 		}
 		System.out.println(sum);
-		if(temp==sum)
+		if(num==sum)
 		{
 			System.out.println("Perfect no.");
 		}

@@ -37,6 +37,7 @@ public class biTree {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+//		BineryTree tree = new BineryTree(); // No need as the class is static 
 		Node root = BineryTree.buildTree(nodes);
 		System.out.println(root.data+" is the root nodes");
 

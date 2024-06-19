@@ -14,6 +14,7 @@ public class palindrome {
 		if(s1.equals(s))
 			System.out.println("palindrome");
 		else
+			
 		System.out.println("Not palindrome");
 		
 	}

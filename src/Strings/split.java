@@ -10,6 +10,10 @@ public class split {
 		String s2[] = s.split(" ");
 		
 		System.out.println(Arrays.toString(s2));
+//		for(int i=0;i<s2.length;i++)
+//		{
+//			System.out.print(s2[i]+", ");
+//		}
 	}
 
 }

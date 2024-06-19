@@ -4,13 +4,16 @@ public class heigestFactorOfNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 4;
-		int stor = 0;
-		for(int i=1;i<=num/2;i++) {
+		int num = 100;
+//		int stor = 0;
+		for(int i=num/2;i>=1;i--) {
 			if(num%i==0)
-				stor=i;
+			{
+				System.out.println(i);
+				break;
+			}
 		}
-		System.out.println(stor);
+//		System.out.println(stor);
 
 	}
 

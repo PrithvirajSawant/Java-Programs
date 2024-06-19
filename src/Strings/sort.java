@@ -1,4 +1,4 @@
-package Strings;  //*****
+package Strings;  //***** ignore
 //import java.lang.reflect.Array;
 import java.util.*;
 public class sort {

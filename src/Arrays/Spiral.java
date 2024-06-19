@@ -10,9 +10,11 @@ public class Spiral {
 		
 		int [][] arr = new int[n][n];
 		int val = 1;
+//		int count = 0;
 		
 		while(r1<=r2 && c1<=c2)
 		{
+//			count++;
 			//moving left to right
 			for(int c=c1;c<=c2;c++)arr[r1][c] = val++;
 			
@@ -21,6 +23,7 @@ public class Spiral {
 			
 			if(r1<r2 && c1<c2) //Optimization
 			{
+//				count++;
 				//moving from right to left
 				for(int c=c2-1;c>c1;c--)arr[r2][c]=val++;
 				
@@ -42,6 +45,7 @@ public class Spiral {
 			}
 			System.out.println();
 		}
+//		System.out.println("count "+count);
 
 	}
 

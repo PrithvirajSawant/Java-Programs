@@ -25,28 +25,28 @@ public class duplicate {
 //		A->2
 		
 		HashMap<Character,String> map = new HashMap<>();
-//		HashMap<Character,String> map = new HashMap<>(); //This also correct
+//		HashMap<Character,Integer> map = new HashMap<>();
 		for(int i=0;i<s.length();i++)
 		{
 			char ch = s.charAt(i);
-			if(map.containsKey(ch))
-			{
+//			if(map.containsKey(ch))
+//			{
 //				int count = map.get(ch); // to replace it with the no. of occurrence, to make this work replace the String constraint in the map to Integer.
+//				System.out.println(count);
 //				count++;
-				map.replace(ch, ""); // To eliminate the duplicates./ Not necessary as the key is unique 
-				
-			}
-			else
-			{
+//				map.replace(ch, count); // To eliminate the duplicates./ Not necessary as the key is unique 
+//				
+//			}
+//			else
+//			{
 				map.put(ch,""); // we are adding first occurrence of the char to the map.
 //				map.put(ch,1);
-			}
-			
+//			}
 		}
 		for(Character key:map.keySet())
 		{
-			System.out.print(key);
-//			System.out.print(key+""+map.get(key));
+			System.out.print(key); //Duplicate program
+//			System.out.print(key+""+map.get(key)); //Occurrence
 		}
 
 	}

@@ -22,10 +22,13 @@ public class pattern2 {
 					System.out.print(" ");
 			}
 			System.out.println();
+
 			star+=2;
 			space--;
+		
 		}
 
 	}
 
 }
+

@@ -1,5 +1,5 @@
 package OOPS;
-
+@FunctionalInterface
 public interface interfaceDemo {
 	public abstract void m12();
 	

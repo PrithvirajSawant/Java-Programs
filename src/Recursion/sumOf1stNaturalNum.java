@@ -1,5 +1,5 @@
 package Recursion;
-
+//sum of 1st 5 natural numbers
 public class sumOf1stNaturalNum {
 	public static void printSum(int i, int n, int sum)
 	{

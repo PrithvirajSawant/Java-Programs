@@ -14,13 +14,14 @@ public class singletonClass {
 		// TODO Auto-generated method stub
 		abc obj = abc.getInstance();
 		abc obj1 = abc.getInstance();
+		
 //		
 //		String name = obj.name;   // dot notation without using method
 //		System.out.println(name); // o/p: null
+////		
+//		String name2 = obj.getName(); // by creating method getName & setName
+//		System.out.println(name2); // o/p: abc
 //		
-//		String name = obj.getName(); // by creating method getName & setName
-//		System.out.println(name); // o/p: abc
-		
 //		
 //		abc obj1 = new abc();
 	}
@@ -29,6 +30,7 @@ public class singletonClass {
 class abc
 {
 	static abc obj; //if null then line 39 to 42
+	
 	
 	private abc() // don't allow user to create an instance with default constructor
 	{
@@ -40,11 +42,17 @@ class abc
 		{
 			obj = new abc();
 		}
-//		System.out.println("Same hashCode: "+obj.toString());
+		
+		System.out.println("Same hashCode: "+obj.toString());
 //		obj.setName("abc");
 		
 		return obj;
 	}
+	
+//	public static void main(String[] args) {  // private constructors can only be called in same class
+//
+//		abc o = new abc();
+//	}
 	
 //	String name ;
 //	public String getName()

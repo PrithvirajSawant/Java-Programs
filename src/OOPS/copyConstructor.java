@@ -2,10 +2,15 @@ package OOPS;
 
 class Student {
 	String name;
-	int age;
+	final int age;
 
 	Student() {
-		
+		age = 12;
+	}
+	
+	Student(int age)
+	{
+		this.age=age;
 	}
 
 	// Copy Constructor
@@ -26,7 +31,7 @@ public class copyConstructor {
 		// TODO Auto-generated method stub
 		Student s1 = new Student(); // student() -> constructor
 		s1.name = "Aman";
-		s1.age = 24;
+//		s1.age = 24;  //commented as we are using final keyword demo
 //		s1.printInfo();
 
 		Student s2 = new Student(s1);

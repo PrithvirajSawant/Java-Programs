@@ -4,7 +4,10 @@ public class Occurance {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "ArorA";
+//		String s = "ArorA";
+		String [] ss = {"a","b","a","b","c"};
+		String s4 = Arrays.toString(ss);
+//		System.out.print(s4);
 //		int count = 0;
 ////		s=s.replace(" ", "");  // for Optimization
 //		char arr[] = s.toCharArray();
@@ -25,16 +28,20 @@ public class Occurance {
 //		}
 //		System.out.println(map);
 		//---------------------------------------------------------------------------------------------------------------------
-		while(s!="") // The loop will continue until the loop gets empty
+		while(s4!="") // The loop will continue until the loop gets empty
 		{
-			char ch = s.charAt(0);
-			String s2 = s.replace(ch+"", ""); // to make it empty replace each char with empty string at every iteration
+			char ch = s4.charAt(0);
+			String s2 = s4.replace(ch+"", ""); // to make it empty replace each char with empty string at every iteration
 //			System.out.println(s2);
-			int count = s.length()-s2.length();
-			s=s2;
+			int count = s4.length()-s2.length();
+			s4=s2;
 //			System.out.println(s);
 //			System.out.print(ch); //To remove duplicate
-			System.out.println(ch+" = "+count); //To print no. of Occurrence
+			if(ch>='a' && ch<='z')
+			{
+				System.out.println(ch+" = "+count); //To print no. of Occurrence
+			}
+			
 		}
 		//---------------------------------------------------------------------------------------------------------------------
 		//using for loop -- wrong*

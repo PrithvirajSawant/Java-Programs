@@ -14,10 +14,6 @@ public class SumDiagnol {
 				{
 					sum+=arr[i][j];
 				}
-//				else if(i+j==arr.length-1)
-//				{
-//					sum+=arr[i][j];
-//				}
 			}
 		}
 		System.out.println(sum);

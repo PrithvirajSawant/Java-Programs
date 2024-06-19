@@ -13,12 +13,11 @@ public class UntilSmallest {
 			{
 				rem = num%10;
 				sum+=rem;
-				num=num/10;
+				num/=10;
 			}
 			num=sum;
 		}while(num>9);
 		System.out.println(num);
-
 	}
 
 }

@@ -7,9 +7,9 @@ public class Queue {
 		static int size;
 		static int rear;
 		
-		queue(int n)
+		queue(int size)
 		{
-			size=n;
+			queue.size=size; //accessing in a static way
 			rear = -1;
 			arr = new int[size];  //this keyword is not mandatory , as it is declared as static
 		}

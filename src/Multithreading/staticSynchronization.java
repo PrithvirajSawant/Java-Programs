@@ -7,6 +7,7 @@ class Bank extends Thread
 	{
 		this.withdraw=withdraw;
 	}
+	
 	public static synchronized void withDraw() // we cannot write run() over here because it is an overridden method , we cannot override static method
 	{
 		String name = Thread.currentThread().getName();

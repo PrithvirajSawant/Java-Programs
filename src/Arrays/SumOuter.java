@@ -14,9 +14,12 @@ public class SumOuter {
 				{
 					sum+=arr[i][j];
 				}
+//				System.out.print(arr[j][i]); //T
 			}
+//			System.out.println(); //T
 		}
 		System.out.println(sum);
+		
 
 	}
 

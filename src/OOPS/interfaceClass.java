@@ -4,7 +4,7 @@ interface I1
 {
 	void m1(); //only public, private, abstract, default, static and strictfp are permitted
 }
-interface I2
+interface I2 
 {
 	void m1();
 }
@@ -22,6 +22,7 @@ class c implements I1,I2
 //		
 //	}
 }
+
 public class interfaceClass {
 
 	public static void main(String[] args) {

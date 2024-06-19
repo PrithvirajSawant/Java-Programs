@@ -16,7 +16,7 @@ public class reverseLL {
 		Node(int data)
 		{
 			this.data=data;
-			this.next=null;
+			next = null;
 			size++;
 		}
 		

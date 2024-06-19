@@ -67,7 +67,7 @@ public class Stack_LinkedList {
 		//size()
 		public static int size()
 		{
-			return size();
+			return size;
 		}
 		
 	}

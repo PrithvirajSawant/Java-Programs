@@ -8,10 +8,18 @@ abstract class Vehical
 	{
 		System.out.println("m3() method");
 	}
+	Vehical()
+	{
+		System.out.println("Vehical constructor");
+	}
 	
 }
 abstract class Car extends Vehical
 {
+	Car()
+	{
+		System.out.println("Car constructor");
+	}
 	@Override
 	public void m1()
 	{
@@ -22,6 +30,16 @@ abstract class Car extends Vehical
  
 class Bike extends Car
 {
+	Bike()
+	{
+//		super();
+		System.out.println("Bike constructor");
+	}
+	public void m1()
+	{
+		super.m1();
+		System.out.println("m1() method in bike class");
+	}
 	@Override
 	public void m2()
 	{
@@ -39,7 +57,8 @@ public class abstractClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vehical v = new Bike(); // We cannot create an object for abstract so we define a class and create a new object with the class & store it in the reference of the abstract class.  
+//		new Bike();  //Anonymous object
+		Vehical v = new Bike(); // We cannot create an object for abstract so we define a class and create a new object with the class & store it in the reference of the abstract class.
 		v.m1();
 		v.m2();
 

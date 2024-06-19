@@ -55,7 +55,7 @@ public class Stack_Array {
 		s.push(1);
 		s.push(2);
 		s.push(3);
-//		s.pop()
+//		s.pop();
 		
 		while(!s.isEmpty())
 		{

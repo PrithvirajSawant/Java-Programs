@@ -1,6 +1,6 @@
 package Sorting;
 // Considering 1st element is the smallest & swapping it with the next actual smallest element
-// 1 swap per iteration(i) 
+// 1 swap per (ith)iteration 
 public class selection {
 	
 	public static void printArray(int arr[])

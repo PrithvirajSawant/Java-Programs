@@ -56,7 +56,7 @@ public class Stack_Queue {
 		int val = q1.poll();  //***
 		
 		Queue<Integer> temp = q1; //q1 is empty at this moment
-		q1=q2; //again we are putting all the elements into q1 from q2
+		q1=q2; //again we are putting all the elements into q1 from q2 / making q1 as q2
 		q2=temp; //and we are making q2 empty
 		
 		return val;

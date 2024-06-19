@@ -26,7 +26,7 @@ public class Pascal {
 			a[i]=new int[i+1];
 			for(int j=0;j<a[i].length;j++)
 			{
-				if(j==0||i==j) //left //right
+				if(j==0||i==j) //left //right (or j==a[i].length-1)
 				{
 					a[i][j]=1;
 				}

@@ -45,7 +45,7 @@ public class comparatorInterface {
 //			}
 //		});
 		
-		std.forEach(System.out::println);
+		std.forEach(System.out::println); //scope resolution operator
 
 	}
 
