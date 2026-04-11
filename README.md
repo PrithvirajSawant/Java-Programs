@@ -1,3 +1,3 @@
 # Solved Programs / Data Structures & Algorithms
 ### --> open src file
-![Screenshot (87)](https://github.com/PrithvirajSawant/Java-Programs/assets/108413358/a65c5445-96c6-45c4-94ef-7830168dbcfb)
+![Screenshot (87)](https://github.com/user-attachments/assets/99d0b2a2-8f8e-467c-bd3c-fb20cad6ee72)
